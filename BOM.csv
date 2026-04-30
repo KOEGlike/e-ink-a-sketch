@@ -2,6 +2,6 @@ PART, LINK
 display, https://www.drot.ro/platforma-arduino/5047-display-e-paper-waveshare-2-9-296-x-128.html
 encoders, https://www.drot.ro/platforma-arduino/837-encoder-rotativ.html
 imu, https://www.drot.ro/platforma-arduino/830-modul-gyroscop-accelerometru-iic-i2c-mpu-6050.html
-mcu, https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html
+mcu, https://ro.farnell.com/seeed-studio/113991054/development-board-risc-arduino/dp/4060379
 vibration motor, https://www.bitmi.ro/modul-senzor-motor-vibratie-compatibil-arduino-11537.html
-battery, i already have this
+battery, generic lipo

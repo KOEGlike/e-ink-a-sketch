@@ -1,2 +1,4 @@
-# e-ink-a-sketch
-E-INK ETCH A SKETCH
+# E-Ink Etch A Sketch
+![image](https://cdn.hackclub.com/019ddea8-896e-7b6b-bd74-88a5d6d2d9fe/paste-1777557082798.png)
+
+This is a little battery powered Etch A Sketch that has an E-ink display instead of the traditional metal powder. For the two knobs it uses EC11 style rotary encoders. It also has an integrated IMU and vibration motor, so when you shake it, it clears the screen. The display can display black white and two shades of grey. It uses a Xiao ESP32C3 as its MCU.
