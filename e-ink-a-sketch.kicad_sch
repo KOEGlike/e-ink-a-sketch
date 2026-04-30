@@ -2418,12 +2418,122 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 177.8 83.82)
+		(end 221.615 128.27)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2551c872-89d2-42c0-8f72-e15129ca1406")
+	)
+	(rectangle
+		(start 99.06 51.435)
+		(end 176.53 135.89)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3dbb4a28-d082-4f5c-a812-62272b0fb23e")
+	)
+	(rectangle
+		(start 62.865 105.41)
+		(end 97.79 135.89)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "61a727e7-f876-4bca-a41f-a07598241673")
+	)
+	(rectangle
+		(start 60.96 73.025)
+		(end 97.79 104.14)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b290850b-58c3-4cd0-ac12-1914b32b2f87")
+	)
+	(rectangle
+		(start 62.23 41.275)
+		(end 97.79 71.755)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "fa7f51da-250f-42b4-944d-856497e1d864")
+	)
+	(text "EPD"
+		(exclude_from_sim no)
+		(at 63.119 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c2a3b2f-673a-4fa7-9073-0a4d0cd4a398")
+	)
+	(text "VIBRATION MOTOR"
+		(exclude_from_sim no)
+		(at 72.136 107.696 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "64859d92-4826-400a-9dde-932ec422c2f4")
+	)
+	(text "ENCODERS"
+		(exclude_from_sim no)
+		(at 183.896 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6b7b0355-41fc-467e-ae3e-19b865446b3d")
+	)
+	(text "IMU"
+		(exclude_from_sim no)
+		(at 64.389 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7926f045-b59c-4450-97a2-12601ee2bc53")
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 102.108 53.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "97b03061-4fc7-4fb1-8ad1-c95d5a2c41e0")
+	)
 	(no_connect
-		(at 85.725 62.23)
+		(at 76.2 62.23)
 		(uuid "1124ed86-3ccc-4c18-9399-fd0cabd15e9b")
 	)
 	(no_connect
-		(at 85.725 59.69)
+		(at 76.2 59.69)
 		(uuid "559edbe4-0224-4976-b212-6c904a619d19")
 	)
 	(no_connect
@@ -2435,7 +2545,7 @@
 		(uuid "923c6256-e5b2-4bac-997d-1a18856a3c0c")
 	)
 	(no_connect
-		(at 85.725 64.77)
+		(at 76.2 64.77)
 		(uuid "a084a5e4-4911-46db-aa2c-cd5b6e0ad0b7")
 	)
 	(no_connect
@@ -2528,7 +2638,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 123.19) (xy 82.55 123.19)
+			(xy 66.04 111.76) (xy 78.74 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2598,7 +2708,7 @@
 	)
 	(wire
 		(pts
-			(xy 94.615 54.61) (xy 85.725 54.61)
+			(xy 85.09 54.61) (xy 76.2 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2668,7 +2778,7 @@
 	)
 	(wire
 		(pts
-			(xy 98.425 49.53) (xy 85.725 49.53)
+			(xy 88.9 49.53) (xy 76.2 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2698,7 +2808,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 135.89) (xy 82.55 137.16)
+			(xy 78.74 124.46) (xy 78.74 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2738,7 +2848,7 @@
 	)
 	(wire
 		(pts
-			(xy 98.425 52.07) (xy 85.725 52.07)
+			(xy 88.9 52.07) (xy 76.2 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2838,7 +2948,7 @@
 	)
 	(wire
 		(pts
-			(xy 94.615 57.15) (xy 85.725 57.15)
+			(xy 85.09 57.15) (xy 76.2 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2898,7 +3008,7 @@
 	)
 	(wire
 		(pts
-			(xy 94.615 67.31) (xy 85.725 67.31)
+			(xy 85.09 67.31) (xy 76.2 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2977,7 +3087,7 @@
 		(uuid "20b980f5-af3f-4c9c-ac9b-34828448cc72")
 	)
 	(label "IMU_SDA"
-		(at 94.615 57.15 180)
+		(at 85.09 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3017,7 +3127,7 @@
 		(uuid "43a16ccf-11e8-42df-869c-10094e02ddad")
 	)
 	(label "IMU_SCL"
-		(at 94.615 54.61 180)
+		(at 85.09 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3027,7 +3137,7 @@
 		(uuid "581edeed-c4db-4624-86f6-031a399dacfd")
 	)
 	(label "MOTOR_PWM"
-		(at 69.85 123.19 0)
+		(at 66.04 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3137,7 +3247,7 @@
 		(uuid "991b4f2f-8426-4330-b578-dab6afd21e7d")
 	)
 	(label "IMU_INT"
-		(at 94.615 67.31 180)
+		(at 85.09 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3258,7 +3368,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 98.425 52.07 0)
+		(at 88.9 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3268,7 +3378,7 @@
 		(dnp no)
 		(uuid "03dc69bc-71fa-4e4f-b18c-322737c8c45b")
 		(property "Reference" "#PWR012"
-			(at 98.425 58.42 0)
+			(at 88.9 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3279,7 +3389,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.981 53.848 0)
+			(at 92.456 53.848 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3289,7 +3399,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 98.425 52.07 0)
+			(at 88.9 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3300,7 +3410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 98.425 52.07 0)
+			(at 88.9 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3311,7 +3421,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 98.425 52.07 0)
+			(at 88.9 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3502,7 +3612,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 137.16 0)
+		(at 78.74 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3512,7 +3622,7 @@
 		(dnp no)
 		(uuid "294e3958-73b0-43a6-a789-e2659b39d808")
 		(property "Reference" "#PWR09"
-			(at 82.55 143.51 0)
+			(at 78.74 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3523,7 +3633,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 141.224 0)
+			(at 78.74 129.794 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3533,7 +3643,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 137.16 0)
+			(at 78.74 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3544,7 +3654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 137.16 0)
+			(at 78.74 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3555,7 +3665,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 137.16 0)
+			(at 78.74 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4067,7 +4177,7 @@
 	(symbol
 		(lib_name "Conn_01x08_Socket_1")
 		(lib_id "Connector:Conn_01x08_Socket")
-		(at 80.645 57.15 0)
+		(at 71.12 57.15 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4078,7 +4188,7 @@
 		(dnp no)
 		(uuid "5bcf2c99-2d77-42c5-9a94-ef5f89a94f17")
 		(property "Reference" "J2"
-			(at 86.233 44.704 0)
+			(at 76.708 44.704 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4089,7 +4199,7 @@
 			)
 		)
 		(property "Value" "IMU"
-			(at 86.233 47.244 0)
+			(at 76.708 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4100,7 +4210,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.645 57.15 0)
+			(at 71.12 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4111,7 +4221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.645 57.15 0)
+			(at 71.12 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4122,7 +4232,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 80.645 57.15 0)
+			(at 71.12 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4321,7 +4431,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_DC")
-		(at 82.55 128.27 0)
+		(at 78.74 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4332,7 +4442,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a2a74e1-7423-4fab-ade0-8e0963a519ce")
 		(property "Reference" "M1"
-			(at 87.63 129.5399 0)
+			(at 83.82 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4343,7 +4453,7 @@
 			)
 		)
 		(property "Value" "Motor_DC"
-			(at 87.63 132.0799 0)
+			(at 83.82 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4354,7 +4464,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 130.556 0)
+			(at 78.74 119.126 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4365,7 +4475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 130.556 0)
+			(at 78.74 119.126 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4376,7 +4486,7 @@
 			)
 		)
 		(property "Description" "DC Motor"
-			(at 82.55 128.27 0)
+			(at 78.74 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4748,7 +4858,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 98.425 49.53 0)
+		(at 88.9 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4758,7 +4868,7 @@
 		(dnp no)
 		(uuid "cc9d2a71-005e-4bd3-9e81-d22492bd670a")
 		(property "Reference" "#PWR013"
-			(at 98.425 53.34 0)
+			(at 88.9 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4769,7 +4879,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 101.727 47.498 0)
+			(at 92.202 47.498 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4779,7 +4889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 98.425 49.53 0)
+			(at 88.9 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4790,7 +4900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 98.425 49.53 0)
+			(at 88.9 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4801,7 +4911,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 98.425 49.53 0)
+			(at 88.9 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
